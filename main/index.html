@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+        
+    
+</head>
+<body>
+    <!-- Header -->
+    <header>
+
+   
+    <div class="nav container">
+        <a href="#" class="logo">My<span>Glam</span></a>
+
+           
+    <div class="search-container">
+      <input type="text" id="searchInput" placeholder="Search...">
+      <button id="searchButton"><i class="bx bx-search"></i></button>
+  </div>
+        <a href="/templates/login.hbs" class="login">Login</a>
+    </div>
+
+  
+    </header>
+
+    <!-- home -->
+    <section class = "home" id = "home">
+        <div class="home-text container" >
+            <h2 class = "home-title">The Ultimate Glam Guide</h2>
+            <span class="home-subtitle">Welcome to MyGlam, your one-stop destination for all things beauty. We believe that beauty is not just skin deep; it's a reflection of your unique personality and style. Join us on this beautiful journey to unlock your inner radiance and learn the art of self-expression where we bring you product recommendations catered to your taste. Together, we'll celebrate the beauty in diversity and help you shine your brightest.</span>
+        </div>
+
+    </section>
+
+    <!-- Post Filter -->
+    <div class="post-filter container">
+        <span class="filter-item active-filter" data-filter="all">ALL</span>
+        <span class="filter-item " data-filter="lips">Lips</span>
+        <span class="filter-item " data-filter="cheeks">Cheeks</span>
+        <span class="filter-item " data-filter="eyes">Eyes</span>
+    </div>
+    <!-- posts -->
+
+    <section class = "post container">
+        <!-- Post Box 1 -->
+        <div class="post-box lips">
+            <img src="/IMAGES/lipstick1.jpg" alt="" class="post-imp">
+            <h2 class="category">Lipstick</h2>
+            <a href="/html/lipstick1/index.html" class="post-title">Maybelline New York, Sensational Creamy Matte</a>
+            <span class="post-date">12 October 2023</span>
+            <p class="post-description">Velvety, hydrating matte lipstick for everyday use, Offers a smooth, creamy texture that does not dry out your lips.</p>
+            
+        </div>
+          <!-- Post Box 2 -->
+        <div class="post-box lips">
+            <img src="/IMAGES/lipstick2.jpg" alt="" class="post-imp">
+            <h2 class="category">Lipstick</h2>
+            <a href="/html/lipstick2/index.html" class="post-title">Lakme 9 To 5 Primer + Matte Lipstick</a>
+            <span class="post-date">12 October 2023</span>
+            <p class="post-description">The Lakme 9 to 5 primer matte lipstick gives you an intense matte and long-lasting finish. It lasts 14 hours for an unstoppable you. No more excusing yourself for a quick touch-up.</p>
+            
+        </div>
+
+          <!-- Post Box 3 -->
+        <div class="post-box lips">
+            <img src="/IMAGES/lipstick3.jpg" alt="" class="post-imp">
+            <h2 class="category">Lipstick</h2>
+            <a href="/html/lipstick4/index.html" class="post-title">Maybelline New York Liquid Matte Lipstick</a>
+            <span class="post-date">12 October 2023</span>
+            <p class="post-description">Lipstick with a velvety matte finish, Lasts up to 16 hours thanks to its elastic ink technology, Available in several shades. </p>
+            
+        </div>
+
+            <!-- Post Box 4 -->
+        <div class="post-box lips">
+            <img src="https://m.media-amazon.com/images/I/51QLQjvAAOL._SL1080_.jpg" alt="" class="post-imp"  >
+            <h2 class="category">Lip Balm</h2>
+            <a href="post-page.html" class="post-title">SUGAR Cosmetics-Tipsy Lips-Moisturizing Balm</a>
+            <span class="post-date">12 October 2023</span>
+            <p class="post-description">Keeps lips supple and moisturized. - Enriched with Jojoba Oil & Vitamin E. </p>
+            
+        </div>
+
+        <!-- Post Box 5 -->
+        <div class="post-box lips">
+            <img src="https://plumgoodness.com/cdn/shop/products/CandyMeltsVeganLipBalm_RedVelvetLove_01_750x.jpg?v=1632452212" alt="" class="post-imp">
+            <h2 class="category">Lip Balm</h2>
+            <a href="/html/lipstick5/index.html" class="post-title">Plum Candy Melts Vegan Lip Balm </a>
+            <span class="post-date">12 October 2023</span>
+            <p class="post-description">Nourishing carrot seed oil to repair sun-damaged and chapped lips, rich cocoa butter and shea butter will instantly moisturize and plump your lips. </p>
+            
+        </div>
+
+        <!-- Post Box 6 -->
+        <div class="post-box lips">
+            <img src="/IMAGES/lipstick6.jpg" alt="" class="post-imp">
+            <h2 class="category">Lip Mask</h2>
+            <a href="/html/lipstick6/index.html" class="post-title">Laneige Lip Sleeping Mask</a>
+            <span class="post-date">12 October 2023</span>
+            <p class="post-description">This nourishing overnight lip mask is enriched with Berry Fruit Complex, Vitamin C, and coconut oil to leave lips soft and visibly smooth.</p>
+            
+        </div>
+
+            <!-- CATEGORY END-->
+          <!-- Post Box 1 -->
+        <div class="post-box cheeks">
+            <img src="/IMAGES/cheek1.jpg" alt="" class="post-imp">
+            <h2 class="category">Tint</h2>
+            <a href="/html/cheek1/index.html" class="post-title">ETUDE Dear Darling Water Gel Lip & Cheek Tint</a>
+            <span class="post-date">12 October 2023</span>
+            <p class="post-description">Get your Korean Makeup game On with Etude House Lip and CheekTint. Long Lasting LiStay fabulous for hours on end, no touch-ups needed!</p>
+            
+        </div>
+
+          <!-- Post Box 2 -->
+        <div class="post-box cheeks">
+            <img src="/IMAGES/cheek2.jpg" alt="" class="post-imp">
+            <h2 class="category">Blush</h2>
+            <a href="/html/cheek2/index.html" class="post-title">Maybelline New York Fit Me Mono Blush</a>
+            <span class="post-date">12 October 2023</span>
+            <p class="post-description">Silky-smooth blush enhances skin tone, Available in several shades
+                True-to-tone colour blush, Natural looking results. </p>
+            
+        </div>
+        <!-- Post Box 3 -->
+        <div class="post-box cheeks">
+            <img src="/IMAGES/cheek3.jpg" alt="" class="post-imp">
+            <h2 class="category">Blush</h2>
+            <a href="post-page.html" class="post-title">Swiss Beauty Ultra Blush Palette</a>
+            <span class="post-date">12 October 2023</span>
+            <p class="post-description">Superfine Particles: Swiss Beauty’s Ultra Blush Palette has exclusively superfine particles that glide over the skin.</p>
+            
+        </div>
+        <!-- Post Box 4 -->
+        <div class="post-box cheeks">
+            <img src="/IMAGES/cheek4.png" alt="" class="post-imp">
+            <h2 class="category">Blush</h2>
+            <a href="post-page.html" class="post-title">PIXI Cream Blush Stick</a>
+            <span class="post-date">12 October 2023</span>
+            <p class="post-description">Versatile Blush for Cheeks and Lips: This cream blush stick is available in 3 colors for you choice, apply our cream blush stick to your complexion to get a natural shine and bring a facial flush.</p>
+            
+        </div>
+        <!-- Post Box 5 -->
+        <div class="post-box cheeks">
+            <img src="/IMAGES/cheek5..jpg" alt="" class="post-imp">
+            <h2 class="category">Highlighter</h2>
+            <a href="post-page.html" class="post-title">Swiss Beauty Brick Highlighter</a>
+            <span class="post-date">12 October 2023</span>
+            <p class="post-description">Four beautiful colors SWISS BEAUTY Brick Highlighter used as together for a captivating glow or use individually to illuminate key features. The highlighter illuminates the complexion and gives a multidimensional sculpted look.</p>
+            
+        </div>
+        <!-- Post Box 6 -->
+        <div class="post-box cheeks">
+            <img src="/IMAGES/cheek6.jpg" alt="" class="post-imp">
+            <h2 class="category">Highlighter</h2>
+            <a href="lipstick1.html" class="post-title">SUGAR Cosmetics - Face Fwd</a>
+            <span class="post-date">12 October 2023</span>
+            <p class="post-description">Illuminating highlighters in buttery soft and creamy texture. Super pigmented and buildable formula. Can be used under or over foundation</p>
+            
+        </div>
+
+        <!-- CATEGORY OVER  -->
+
+          <!-- Post Box 1 -->
+        <div class="post-box eyes">
+            <img src="/IMAGES/eye1.jpg" alt="" class="post-imp">
+            <h2 class="category">Eyeliner</h2>
+            <a href="post-page.html" class="post-title">Maybelline New York Eyeliner</a>
+            <span class="post-date">12 October 2023</span>
+            <p class="post-description">Highly pigmented waterproof eye liner, Ideal for defined lines and a range of looks, Perfect for daily use.</p>
+            
+        </div>
+
+          <!-- Post Box 8 -->
+        <div class="post-box eyes">
+            <img src="/IMAGES/eye2.jpg" alt="" class="post-imp">
+            <h2 class="category">Eyeliner</h2>
+            <a href="post-page.html" class="post-title">SUGAR POP Matte Eyeliner</a>
+            <span class="post-date">12 October 2023</span>
+            <p class="post-description">This SUGAR POP eyeliner pigmented to the highest degree has a waterproof formula and super-staying power.
+            </p>
+            
+        </div>
+        
+         <!-- Post Box 9 -->
+         <div class="post-box eyes">
+            <img src="/IMAGES/eye3.webp" alt="" class="post-imp">
+            <h2 class="category">Kohl Liner</h2>
+            <a href="post-page.html" class="post-title">Plum Eye-Swear-By Kajal</a>
+            <span class="post-date">12 October 2023</span>
+            <p class="post-description">PLUM EYE-SWEAR-BY KOHL KAJAL comes in a retractable pencil for ease of use. You’ll swear by its creamy smooth, single stroke application, deep black pigment & matte finish!
+            </p>
+            
+        </div>
+    </section>
+        <!-- FOOTER -->
+<footer id="colophon" class="site-footer" role="contentinfo">
+        <div class="social-wrapper">
+          <ul>
+            <li>
+              <a href="#" target="_blank">
+                <img src="https://cdn1.iconfinder.com/data/icons/logotypes/32/twitter-128.png" alt="Twitter Logo" class="twitter-icon"></a>
+            </li>
+            <li>
+              <a href="https://www.instagram.com/ananya._banerjee/" target="_blank">
+                <img src="https://png.pngtree.com/png-clipart/20230401/original/pngtree-three-dimensional-instagram-icon-png-image_9015419.png" alt="Instagram Logo" class="instagram-icon"></a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/feed/" target="_blank">
+                <img src="https://img.freepik.com/premium-vector/square-linkedin-logo-isolated-white-background_469489-892.jpg" alt="Linkedin Logo" class="linkedin-icon"></a>
+            </li>
+            <li>
+              <a href="#" target="_blank">
+                <img src="https://png.pngtree.com/png-clipart/20180515/ourmid/pngtree-facebook-logo-facebook-icon-png-image_3566127.png" alt="Facebook Logo" class="facebook-icon"></a>
+            </li>
+            <li>
+              <a href="https://www.youtube.com/channel/UCOwyzSDlwa7azr4CxsFiNew" target="_blank">
+                <img src="https://lh3.googleusercontent.com/j_RwVcM9d47aBDW5DS1VkdxUYCkDUCB6wZglv4x-9SmsxO0VaFs7Csh-FmKRCWz9r_Ef=w170" alt="Youtube Logo" class="youtube-icon"></a>
+            </li>
+          </ul>
+        </div>
+      
+        <nav class="footer-nav" role="navigation">
+          <p>Copyright &copy; 2023 - All rights reserved.</p>
+        </nav>
+      </footer>
+      <!-- #colophon -->
+
+      
+
+
+    
+
+    <!-- js -->
+    <script src="main.js"></script>
+    <!-- jquery -->
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <!-- bootstrap -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+
+
+</body>
+</html>
